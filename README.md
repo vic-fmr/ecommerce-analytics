@@ -41,7 +41,7 @@ O projeto é composto por dois entregáveis principais, ambos contidos neste rep
 
 ## 4. 🚀 Como Executar a Análise
 
-Todo o código-fonte da análise está no notebook `codigo/analise_ecommerce.ipynb`. Para executá-lo, você precisará do arquivo de dados `dados/`.
+Todo o código-fonte da análise está no notebook `codigo/analise_ecommerce.ipynb`. Para executá-lo, você precisará do diretório de dados `dados/`.
 
 Existem duas formas de rodar o projeto:
 
