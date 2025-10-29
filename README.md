@@ -59,7 +59,7 @@ Para executar este projeto em um ambiente em nuvem, siga estes passos para clona
     * Crie uma nova célula de código no topo do notebook.
     * Execute o comando `git clone` para trazer todos os arquivos (incluindo os **vários arquivos CSV**) do GitHub para o ambiente do Colab:
 
-    ```python
+    ```bash
     !git clone https://github.com/vic-fmr/ecommerce-analytics.git
     ```
 
