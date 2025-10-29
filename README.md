@@ -17,9 +17,9 @@ A direção de um e-commerce fictício busca respostas confiáveis (com tratamen
 
 Este projeto foi desenvolvido pelos seguintes membros:
 
-* **[Camila Teixeira]** - Negócio/Coordenação
-* **[Victor Marques]** - Engenharia de Dados
-* **[Ana Sofia]** - Ciência de Dados
+* **[Camila Teixeira]** - Negócio/Coordenação - [camilamta275](https://github.com/camilamta275)
+* **[Victor Marques]** - Engenharia de Dados - [vic-fmr](https://github.com/vic-fmr)
+* **[Ana Sofia]** - Ciência de Dados - [Sun-cs-Sol](https://github.com/Sun-cs-Sol)
 
 
 ## 3. Entregáveis
@@ -41,20 +41,35 @@ O projeto é composto por dois entregáveis principais, ambos contidos neste rep
 
 ## 4. 🚀 Como Executar a Análise
 
-Todo o código-fonte da análise está no notebook `codigo/analise_ecommerce.ipynb`. Para executá-lo, você precisará do arquivo de dados `[nome_do_dataset.csv]`.
-
-**Importante:** Antes de começar, coloque o arquivo `[nome_do_dataset.csv]` dentro da pasta `dados/`. O notebook está programado para procurar o dataset nesse local.
+Todo o código-fonte da análise está no notebook `codigo/analise_ecommerce.ipynb`. Para executá-lo, você precisará do arquivo de dados `dados/`.
 
 Existem duas formas de rodar o projeto:
 
-### Opção 1: Google Colab (Recomendado e mais fácil)
+### 🚀 Opção 1: Google Colab (Recomendado e mais fácil)
 
-1.  Acesse o [Google Colab](https://colab.research.google.com/).
-2.  Clique em `Arquivo > Upload de notebook...` e selecione o arquivo `codigo/analise_ecommerce.ipynb` do nosso projeto.
-3.  No menu lateral esquerdo do Colab, clique no ícone de "Pasta" (Arquivos).
-4.  Clique em "Fazer upload" e selecione o arquivo de dados `[nome_do_dataset.csv]`.
-    * *Nota: Se o arquivo estiver em seu Google Drive, você pode conectá-lo clicando no ícone do Drive.*
-5.  **Pronto!** Agora basta executar as células do notebook na ordem. As bibliotecas (`pandas`, `seaborn`, etc.) já vêm instaladas no Colab.
+Para executar este projeto em um ambiente em nuvem, siga estes passos para clonar o repositório completo:
+
+1.  **Abra o Notebook no Colab:**
+    * Acesse o [Google Colab](https://colab.research.google.com/).
+    * Vá em **Arquivo > Abrir notebook...** (Open notebook).
+    * Na aba **GitHub**, busque pelo seu repositório ou cole o URL.
+    * Navegue até o arquivo `codigo/analise_ecommerce.ipynb` e abra-o.
+
+2.  **Clone o Repositório para Acessar os Dados:**
+    * Crie uma nova célula de código no topo do notebook.
+    * Execute o comando `git clone` para trazer todos os arquivos (incluindo os **vários arquivos CSV**) do GitHub para o ambiente do Colab:
+
+    ```python
+    !git clone https://github.com/vic-fmr/ecommerce-analytics.git
+    ```
+
+3.  **Localize o Código e os Dados:**
+    * Após a clonagem, todos os arquivos (notebook, CSVs, etc.) estarão disponíveis no ambiente do Colab.
+    * Os arquivos CSV estarão localizados em: `ecommerce-analytics/dados/`.
+
+4.  **Pronto!**
+    * Execute as células do notebook na ordem. As bibliotecas (`pandas`, `seaborn`, etc.) já vêm instaladas no Colab.
+    * Lembre-se de ajustar os caminhos de carregamento dos CSVs no notebook, se necessário (exemplo: `pd.read_csv('ecommerce-analytics/dados/arquivo1.csv')`).
 
 ### Opção 2: Localmente (Jupyter Notebook ou VS Code)
 
