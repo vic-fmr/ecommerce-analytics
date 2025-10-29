@@ -19,7 +19,7 @@ Este projeto foi desenvolvido pelos seguintes membros:
 
 * **[Camila Teixeira]** - Negócio/Coordenação
 * **[Victor Marques]** - Engenharia de Dados
-* **[Ana Sofia]** - Cientista de Dados
+* **[Ana Sofia]** - Ciência de Dados
 
 
 ## 3. Entregáveis
